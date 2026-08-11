@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Google Colab
+*.log
+
+# Environment variables and secrets
+.env
+.env.*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Large model/data files
+*.pkl
+*.joblib
+*.h5
+*.parquet
+
+# Temporary files
+*.tmp
+*.temp
+
+# Excel temporary files
+~$*.xlsx
