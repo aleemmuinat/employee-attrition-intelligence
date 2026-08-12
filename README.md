@@ -487,31 +487,17 @@ HR prediction systems should be carefully evaluated for potential bias, particul
 
 # Repository Structure
 
-```text
-employee-attrition-intelligence/
-│
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── notebooks/
-│   ├── README.md
-│   └── HR_Employee_Attrition_Analysis.ipynb
-│
-├── data/
-│   └── README.md
-│
-├── outputs/
-│   ├── figures/
-│   └── tables/
-│
-├── models/
-│   └── README.md
-│
-└── docs/
-    └── README.md
+The repository is organized into dedicated folders for the analysis, documentation, outputs, and future project assets.
 
-
+- `README.md` — Project overview, methodology, findings, and recommendations
+- `requirements.txt` — Python dependencies used for the analysis
+- `.gitignore` — Files excluded from version control
+- `notebooks/` — Analysis notebook
+- `data/` — Dataset documentation
+- `outputs/figures/` — Visual outputs and charts
+- `outputs/tables/` — Analytical tables and model results
+- `models/` — Model-related documentation and future model artifacts
+- `docs/` — Supporting project documentation
 
 ---
 # Project Status
