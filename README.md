@@ -112,7 +112,6 @@ For machine learning, this was transformed into:
 
 # Analytical Workflow
 
-```text
 Business Understanding
         ↓
 Data Understanding
