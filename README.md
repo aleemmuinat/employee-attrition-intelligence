@@ -91,22 +91,22 @@ The dataset contains employee-level demographic, job, compensation, satisfaction
 ### Dataset Size
 
 - **1,470 employees**
-- **32 original features**
-- Binary attrition target
+- **35 variables in the original dataset**
+- Binary employee attrition target
+
+During the analysis, selected variables were removed where they were not considered necessary for the analytical and predictive objectives. Additional features were also engineered to support the analysis.
 
 ### Target Variable
 
 The original `Attrition` variable contains:
 
-- `Yes` → Employee left
-- `No` → Employee stayed
+- `Yes` — Employee left
+- `No` — Employee stayed
 
-For machine learning, this was transformed into:
+For machine learning, the target was transformed into:
 
-`Attrition_Flag`
-
-- `0` → Stayed
-- `1` → Left
+- `0` — Stayed
+- `1` — Left
 
 ---
 
