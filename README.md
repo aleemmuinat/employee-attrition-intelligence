@@ -277,6 +277,16 @@ This demonstrates that model performance should not be evaluated only at the def
 
 The appropriate threshold should instead reflect the organization's priorities, HR capacity, and the relative cost of false negatives versus false positives.
 
+## Threshold Trade-off
+
+At the 0.25 threshold, the models demonstrated different strengths.
+
+- **Balanced Logistic Regression** achieved the highest recall at **89.36%**, making it more effective when the priority is identifying as many potential attrition cases as possible.
+- **Random Forest** achieved the highest F1-score at **51.49%**, providing a stronger balance between precision and recall.
+- **XGBoost** achieved a recall of **51.06%** and an F1-score of **40.34%**.
+
+This demonstrates that there is no single universally optimal threshold. The preferred model and threshold should depend on whether the organization's priority is maximizing risk detection, balancing precision and recall, or managing the number of employees selected for intervention.
+
 # Model Explainability
 
 Model interpretability was examined using:
