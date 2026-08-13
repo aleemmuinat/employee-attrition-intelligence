@@ -544,6 +544,55 @@ The next stage of the project will translate the analytical findings into an int
 - Predictive insights
 - Executive-level reporting
 
+# Selected Visual Insights
+
+## Attrition and Overtime
+
+Employees working overtime recorded a substantially higher attrition rate than employees who did not work overtime.
+
+![Attrition Rate by Overtime](outputs/figures/attrition_rate_by_overtime.png)
+
+---
+
+## Attrition and Income
+
+Attrition was highest among employees in the lowest income band, highlighting compensation and career progression as important areas for retention analysis.
+
+![Attrition Rate by Income Band](outputs/figures/attrition_rate_by_income_band.png)
+
+---
+
+## Machine Learning Model Comparison
+
+Six classification models were evaluated using accuracy, precision, recall, F1-score, and ROC-AUC.
+
+![Machine Learning Model Performance Comparison](outputs/figures/model_performance_comparison.png)
+
+---
+
+## Threshold Optimization
+
+Changing the classification threshold substantially affected the Random Forest model's ability to identify employees who left.
+
+![Random Forest Threshold Optimization](outputs/figures/random_forest_threshold_optimization.png)
+
+---
+
+## Model Explainability
+
+SHAP analysis was used to examine the features contributing most strongly to model predictions.
+
+![Top SHAP Features](outputs/figures/top_features_shap.png)
+
+---
+
+## Confusion Matrix
+
+The confusion matrix provides a detailed view of the Random Forest model's classification performance.
+
+![Random Forest Confusion Matrix](outputs/figures/random_forest_confusion_matrix.png)
+
+---
 # Project Outcome
 
 This project demonstrates how HR data can be transformed from descriptive reporting into a more proactive employee-retention intelligence workflow.
